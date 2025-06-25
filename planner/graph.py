@@ -24,7 +24,6 @@ load_dotenv()
 
 
 # Define the LLM
-gpt_model= ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
 llama_model = ChatOllama(model="llama3.1:latest")
 qwen_model = ChatOllama(model="qwen2.5:7b")
@@ -49,19 +48,19 @@ async def create_agent():
     client = MultiServerMCPClient({
         "calendar_server": {
             "command": "python",
-            "args": ["C:\\Users\\ODUNAYO\\Documents\\Machine Learning Projects\\LLM Project\\MCP Demo\\daypilot\\planner\\Local Servers\\calendar_server.py"],
+            "args": ["C:\\Users\\.....\\planner\\Local Servers\\calendar_server.py"],
             "transport": "stdio"
         },
 
         
         "expense_tracker_server": {
             "command": "python",
-            "args": ["C:\\Users\\ODUNAYO\\Documents\\Machine Learning Projects\\LLM Project\\MCP Demo\\daypilot\\planner\\Local Servers\\expenses_server.py"],
+            "args": ["C:\\Users\\.....\\planner\\Local Servers\\expenses_server.py"],
             "transport": "stdio"
         },
         "weather_server": {
             "command": "python",
-            "args": ["C:\\Users\\ODUNAYO\\Documents\\Machine Learning Projects\\LLM Project\\MCP Demo\\daypilot\\planner\\Local Servers\\weather_server.py"],
+            "args": ["C:\\Users\\......\\planner\\Local Servers\\weather_server.py"],
             "transport": "stdio"
         },
     })
