@@ -8,8 +8,6 @@ load_dotenv()
 API_KEY = os.getenv("weather_api_key")
 
 
-# API_KEY ="9f486b4892564141acf90453251902"
-
 mcp = FastMCP("weather_server")
 
 def fetch_weather_report(city):

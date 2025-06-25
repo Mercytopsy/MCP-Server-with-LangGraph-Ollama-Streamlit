@@ -39,8 +39,7 @@ class Calendar:
 
     def get_events(self) -> List[dict]:
         """
-        Retrieves calendar events between the given start and end dates (inclusive).
-        
+        Retrieves calendar events using the current date.
 
         Returns:
             List[dict]: List of matching calendar events.
@@ -71,8 +70,6 @@ class Calendar:
 
 
 
-# cal_data = Calendar()
-# print(cal_data.get_events())
 
 @mcp.tool()
 async def get_calendar_events() -> List[dict]:
