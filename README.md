@@ -34,4 +34,5 @@ The system uses 3 different local MCP Servers:
 | Qwen2.5:14b       | for agent reasoning                 |
 | Streamlit         | Frontend UI for user interaction    |
 
-
+### 📸 Project Demo
+![My Image](https://github.com/Mercytopsy/MCP-Server-with-LangGraph-Ollama-Streamlit/blob/main/docs/demo_screenshot.png)
