@@ -52,9 +52,10 @@ The system uses 3 different local MCP Servers:
    - Click **Create Credentials > OAuth client ID**
    - Choose **Desktop app** as the application type
    - Click **Create**
-6. **Download the JSON file** and rename it to:
-   ```bash
-   credentials.json
+6. **Download the JSON file** and rename it to "credentials.json".
+
+  
+  
 
 
 #### 1. Clone the repository
