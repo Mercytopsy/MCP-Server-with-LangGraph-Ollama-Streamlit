@@ -35,7 +35,7 @@ The system uses 3 different local MCP Servers:
 | Streamlit         | Frontend UI for user interaction    |
 
 
-
+---
 
 ### 🔗 Connect to Google Calendar API
 
@@ -54,7 +54,7 @@ The system uses 3 different local MCP Servers:
    - Click **Create**
 6. **Download the JSON file** and rename it to "credentials.json".
 
-  
+---  
   
 ### 📦 Installation & Setup
 
