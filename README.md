@@ -29,7 +29,6 @@ The system uses 3 different local MCP Servers:
 | FastMCP           | For building MCP Servers            |
 | LangGraph         | For building the multi-agent state  |
 | LangChain         | for Tool orchestration              |
-
 | PostgreSQL        | Local database to store user expenses |
 | Qwen2.5:14b       | for agent reasoning                 |
 | Streamlit         | Frontend UI for user interaction    |
