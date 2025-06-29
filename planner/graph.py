@@ -75,7 +75,7 @@ async def create_agent():
             ("system", SYSTEM_PROMPT),
             ("placeholder", "{messages}")
         ])
-        assistant_runnable = assistant_prompt | qwen_model.bind_tools(tools)
+        assistant_runnable = assistant_prompt | gpt_model.bind_tools(tools)
         response = await assistant_runnable.ainvoke({"messages": state["messages"]})
         return {"messages": [response]}
 
