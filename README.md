@@ -34,5 +34,56 @@ The system uses 3 different local MCP Servers:
 | Qwen2.5:14b       | for agent reasoning                 |
 | Streamlit         | Frontend UI for user interaction    |
 
-### 📸 Project Demo
-![My Image](https://github.com/Mercytopsy/MCP-Server-with-LangGraph-Ollama-Streamlit/blob/main/docs/demo_screenshot.png)
+
+### 📦 Installation & Setup
+
+#### 🔗 Connect to Google Calendar API
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+2. Create a new project or select an existing one.
+3. **Enable Google Calendar API**:
+   - Navigate to `APIs & Services > Library`
+   - Search for **Google Calendar API** and click **Enable**
+4. **Configure OAuth consent screen**:
+   - Go to `APIs & Services > OAuth consent screen`
+   - Select user type and complete the required fields
+5. **Create OAuth Client ID**:
+   - Go to `APIs & Services > Credentials`
+   - Click **Create Credentials > OAuth client ID**
+   - Choose **Desktop app** as the application type
+   - Click **Create**
+6. **Download the JSON file** and rename it to:
+   ```bash
+   credentials.json
+
+
+#### 1. Clone the repository
+```bash
+git clone https://github.com/Mercytopsy/MCP-Server-with-LangGraph-Ollama-Streamlit
+cd MCP-Server-with-LangGraph-Ollama-Streamlit
+```
+#### 2. Install uv for Windows
+```bash
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex" 
+```
+#### 3. Create & Activate Virtual Environment
+```bash
+uv venv
+.venv\scripts\activate.bat
+```
+#### 4. Install Project Dependencies
+```bash
+uv pip install .
+```
+#### 5. Navigate to the planner Directory
+```bash
+cd planner
+```
+#### 6. Copy credentials.json to this directory
+```bash
+copy %USERPROFILE%\Downloads\credentials.json .
+```
+#### 7. Run the App
+```bash
+streamlit run main.py
+```
