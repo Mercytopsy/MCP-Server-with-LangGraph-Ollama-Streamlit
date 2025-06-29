@@ -2,6 +2,9 @@
 
 This project demonstrates an AI Daily Planner powered by a Local MCP (Modular Command Protocol) Server, integrating LangGraph, Ollama, and Streamlit for an interactive AI experience. It showcases how the LangGraph agent can communicate with different MCP tools (Weather, Expense, Calendar) to perform real-time, task-based planning.
 
+![My Image](https://github.com/Mercytopsy/MCP-Server-with-LangGraph-Ollama-Streamlit/blob/main/docs/architecture%20diagram.png)
+
+
 ### 🧩 MCP Server
 The system uses 3 different local MCP Servers:
 
