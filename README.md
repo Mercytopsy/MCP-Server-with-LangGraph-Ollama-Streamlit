@@ -1,8 +1,8 @@
 ## Local MCP Server with LangGraph, Ollama & Streamlit
 
-This project demonstrates how to build a **Local MCP (Model Communication Protocol) Server** system that integrates **LangGraph**, **Ollama**, and **Streamlit** for an interactive, modular AI experience.
+This project demonstrates an AI Daily Planner powered by a Local MCP (Modular Command Protocol) Server, integrating LangGraph, Ollama, and Streamlit for a modular, interactive AI experience.
 
-
+It showcases how the LangGraph agent can communicate with different MCP tools (Weather, Expense, Calendar) to perform real-time, task-based planning.
 
 ### 🧩 MCP Server
 The system uses 3 different local MCP Servers:
