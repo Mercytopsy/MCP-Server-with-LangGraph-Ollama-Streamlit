@@ -35,9 +35,9 @@ The system uses 3 different local MCP Servers:
 | Streamlit         | Frontend UI for user interaction    |
 
 
-### 📦 Installation & Setup
 
-#### 🔗 Connect to Google Calendar API
+
+### 🔗 Connect to Google Calendar API
 
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
 2. Create a new project or select an existing one.
@@ -56,7 +56,7 @@ The system uses 3 different local MCP Servers:
 
   
   
-
+### 📦 Installation & Setup
 
 #### 1. Clone the repository
 ```bash
